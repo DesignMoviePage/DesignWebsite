@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In</title>
+    </head>
+
+    <body>
+        <form>
+    <label for="username">Enter Username</label>
+    <input type="text" name="username" id="username" placeholder="Enter Username"   required>
+    <br><br>
+    <label for="email">Enter Email Adress</label>
+    <input type="email" name="email" id="email" placeholder="Enter Email"   required>
+    <br><br>
+    <label for="password">Enter Password</label>
+    <input type="password" name"password" id="password" placeholder="Enter Password"    required>
+    <br><br>
+    <label for="date">Enter Birthdate</label>
+    <input type="date" name="date" id="date">
+    <br><br>
+    <!--more fun with forms-->
+    <p>Select Your Favorite Color</p>
+    <input type="radio" name="radio" id="option-1" value="Purple">
+    <label for="option-1">Purple</label><br>
+    <input type="radio" name="radio" id="option-2" value="Green">
+    <label for="option-2">Green</label><br>
+    <input type="radio" name="radio" id="option-3" value="Yellow">
+    <label for="option-3">Yellow</label><br>
+    <input type="radio" name="radio" id="option-4" value="Red">
+    <label for="option-4">Red</label><br>
+    <input type="radio" name="radio" id="option-5" value="Orange">
+    <label for="option-5">Orange</label><br>
+       
+    <p>Security Question</p>
+    <label for="Question">Security Question</label>
+    <select name="Question" id="Question">
+<option value="q1">What is the name of your first pet?</option>
+<option value="q2">What is your moms bday?</option>
+<option value="q3">What is your home adress?</option>
+
+
+    </select>
+    <br>
+    <label for="answer">Security Answer</label>
+    <input type="text" name="answer" id="answer">
+<br><br>
+    <label  for="bio"></label>
+    <textarea name="bio" id="bio" cols="30" rows="10">Enter Bio</textarea> 
+    <br><br>
+    <input type="submit" name="submit" id="submit" value="submit">
+    <br><br>
+    <label for="cc">Enter Credit Card  Info</label>
+    <input type="text" name="cc" id="cc" min="16" max="18" pattern="[0-9]">
+    
+        </form>
+    </body>
+ </html>
